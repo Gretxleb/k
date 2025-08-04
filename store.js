@@ -1,4 +1,4 @@
-var plugins = [
+var store = [
     {
         title: "Дополнительные плагины",
         plugins: [
