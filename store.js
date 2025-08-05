@@ -1,76 +1,111 @@
 var store = [
     {
-        title: "Дополнительные плагины",
+        title: "Онлайн-плагины 2025",
         plugins: [
             {
-                "url": "https://bwa.to/d",
-                "title": "Bwa.to d",
-                "descr": "Описание плагина 1"
-            },
-            {
-                "url": "http://arkmv.ru/vod",
-                "title": "Ark mv",
-                "descr": "Описание плагина 2"
-            },
-            {
                 "url": "https://nb557.github.io/plugins/online_mod.js",
-                "title": "Online Mod",
-                "descr": "Описание плагина 3"
+                "title": "Online_Mod",
+                "descr": "Один из самых популярных плагинов для Lampa. Позволяет смотреть кино в реальном времени."
             },
             {
-                "url": "http://llpp.in/v/vod.js",
-                "title": "LLPP.in vod",
-                "descr": "Описание плагина 4"
+                "url": "http://nb557.surge.sh/online_mod.js",
+                "title": "Online_Mod (зеркало)",
+                "descr": "Зеркало для плагина Online_Mod."
             },
             {
-                "url": "http://llpp.xyz/ur/all.js",
-                "title": "LLPP.xyz all",
-                "descr": "Описание плагина 5"
+                "url": "https://bylampa.github.io/cinema.js",
+                "title": "Онлайн Cinema",
+                "descr": "Плагин для просмотра онлайн с различными источниками: Cineteca, Louxor, Digiplex и др."
             },
             {
-                "url": "http://jin.energy/online.js",
-                "title": "Jin Energy Online",
-                "descr": "Описание плагина 6"
+                "url": "https://bwa.to/o",
+                "title": "BwaJS",
+                "descr": "Известный онлайн-плагин с источниками Rezka, JinxEM, Mirage, VideoCDN и другими."
             },
             {
-                "url": "https://bwa.to/plugins/prestige.js",
-                "title": "Bwa.to Prestige",
-                "descr": "Описание плагина 7"
+                "url": "http://bwa.to/cloud.js",
+                "title": "Онлайн BWA Cloud",
+                "descr": "Менее требовательный плагин для старых устройств."
             },
             {
-                "url": "https://skaztv.online/store.js",
-                "title": "Skaztv Online",
-                "descr": "Описание плагина 8"
+                "url": "http://bwa.to/co",
+                "title": "BwaRC (co)",
+                "descr": "Разновидность BWA, работает на старых устройствах."
             },
             {
-                "url": "https://lampaplugins.github.io/store/store.js",
-                "title": "Lampa Plugins Store",
-                "descr": "Описание плагина 9"
+                "url": "http://bwa.to/rc",
+                "title": "BwaRC (rc)",
+                "descr": "Еще один адрес для BwaRC."
             },
             {
-                "url": "https://raw.githubusercontent.com/lastnem/online.js-main/online.js",
-                "title": "Lastnem Online",
-                "descr": "Описание плагина 10"
+                "url": "http://showwwy.com/m.js",
+                "title": "Showy (основной)",
+                "descr": "Поддерживает 4K-видео, требуется авторизация через Telegram-бота."
             },
             {
-                "url": "http://xyu.govno.co.uk/online.js",
-                "title": "Xyu Govno Online",
-                "descr": "Описание плагина 11"
+                "url": "http://showy.online/m.js",
+                "title": "Showy (зеркало)",
+                "descr": "Зеркальный адрес для Showy."
             },
             {
-                "url": "http://skaz.tv/scdn.js",
-                "title": "Skaz TV CDN",
-                "descr": "Описание плагина 12"
+                "url": "http://smotret24.ru/online.js",
+                "title": "Showy без регистрации (РФ)",
+                "descr": "Бесплатный плагин без регистрации, Full HD 1080p. Рекомендуется для России."
             },
             {
                 "url": "http://smotret24.com/online.js",
-                "title": "Smotret24 Online",
-                "descr": "Описание плагина 13"
+                "title": "Showy без регистрации (НЛ)",
+                "descr": "Бесплатный плагин без регистрации, Full HD 1080p. Рекомендуется для Нидерландов."
+            },
+            {
+                "url": "http://lampa.stream/modss",
+                "title": "MODS’s",
+                "descr": "Много источников для просмотра в 4K, но требует платной подписки."
+            },
+            {
+                "url": "http://modss.tv",
+                "title": "MODS’s (зеркало)",
+                "descr": "Зеркальный адрес для MODS’s."
+            },
+            {
+                "url": "http://n.modss.tv",
+                "title": "MODS’s (зеркало 2)",
+                "descr": "Еще одно зеркало для MODS’s."
+            },
+            {
+                "url": "http://arkmv.ru/vod",
+                "title": "Онлайн Stream",
+                "descr": "Плагин с бесплатными источниками: Filmix, IRemux, Collaps, FanCDN и др."
+            },
+            {
+                "url": "https://lampaplugins.github.io/store/vcdn.js",
+                "title": "VideoCDN",
+                "descr": "Полностью бесплатные источники VideoCDN und Videoseed в FullHD-1080p."
+            },
+            {
+                "url": "http://skaz.tv/vcdn.js",
+                "title": "VideoCDN (зеркало)",
+                "descr": "Зеркальный адрес для VideoCDN."
+            },
+            {
+                "url": "http://skaz.tv/tv.js",
+                "title": "Onlyskaz (ТВ+Онлайн)",
+                "descr": "Платный плагин для ТВ и Онлайн просмотра в 4K."
+            },
+            {
+                "url": "http://skaz.tv/onlines.js",
+                "title": "Onlyskaz (Онлайн)",
+                "descr": "Платный плагин только для Онлайн просмотра в 4K."
+            },
+            {
+                "url": "https://immisterio.github.io/bwa/fx.js",
+                "title": "Онлайн Filmix",
+                "descr": "Плагин для просмотра онлайн через Filmix (бесплатно до 2-х устройств)."
             }
         ]
     }
 ];
 
 if (typeof start == 'function') {
-    start(plugins);
+    start(store);
 }
